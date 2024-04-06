@@ -1,0 +1,49 @@
+body{
+	text-align: center;
+	color: white;
+	background: linear-gradient(to right, black, rgb(4, 139, 208));
+}
+div{
+	margin-top: 100px;
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 20%;
+	height: 600px;
+	border: 5px solid white;
+	border-radius: 20px;
+	box-shadow: 0 0 20px white;
+	float: left;
+
+}
+img{
+	width: 80%;
+}
+p{
+	text-shadow: 0 0 10px white;
+	background-color: black;
+}
+div:hover{
+	border-radius: 20px;
+	font-size: 20px;
+	background-color: darkgreen;
+	text-shadow: 0 0 10px white;
+	transform: rotate(15deg);
+}
+header{
+	width: 600px;
+	height: 50px;
+	background-color: gray;
+	text-align: center;
+	position: absolute;
+	top: 1px;
+}
+a{
+	color: blue;
+	text-decoration: none;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+a:hover{
+	font-size: 20px;
+	color: white;
+}
